@@ -1,0 +1,44 @@
+@import url("http://getbootstrap.com/dist/css/bootstrap.css");
+
+html, body {
+	height: 100%;
+	margin: 0;
+	padding: 0;
+}
+
+.navbar {
+	margin-bottom: 0px;
+}
+
+.blog-body {
+	position: fixed;
+	width: 100%;
+	min-height: 100%;
+	top: 50px;
+}
+
+.sidebar {
+	border-right: solid 1px lightgrey;
+	width: 300px;
+	min-height: 100%;
+	position: absolute;
+	float: left;
+}
+
+.content {
+	position: absolute;
+	left: 300px;
+}
+
+.list-group-item {
+	border-left: none;
+	border-right: none;
+}
+.list-group-item:first-child {
+	border-top-right-radius: 0;
+	border-top-left-radius: 0;
+}
+.list-group-item:last-child {
+	border-bottom-right-radius: 0;
+	border-bottom-left-radius: 0;
+}
